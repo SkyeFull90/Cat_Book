@@ -95,13 +95,8 @@ const deleteCat = async (req, res) => {
   try {
     let cat = await Cat.findById(req.params.id);
     if (cat.owner.equals(req.user._id)) {
-      await Cat.findByIdAndDelete(req.params.id, function(err){
-        if(err){
-          console.log(err);
-        } else {
-          console.log("deleted");
-        }
-      });
+      await Cat.findByIdAndDelete(req.params.id);
+      console.log("deleted");
     }
     res.redirect('/');
   } catch(err) {
