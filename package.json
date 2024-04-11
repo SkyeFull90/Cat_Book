@@ -9,7 +9,7 @@
     "cy:open": "cypress open"
   },
   "engines": {
-    "node": "21.6.2"
+    "node": "20.5.1"
   },
   "keywords": [],
   "author": "",
