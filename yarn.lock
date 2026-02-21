@@ -1609,10 +1609,10 @@ mongodb@~6.20.0:
     bson "^6.10.4"
     mongodb-connection-string-url "^3.0.2"
 
-mongoose@^8.18.2:
-  version "8.19.1"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.19.1.tgz#17f4e0b0e66bb963326f3030ba43d2086013b94d"
-  integrity sha512-oB7hGQJn4f8aebqE7mhE54EReb5cxVgpCxQCQj0K/cK3q4J3Tg08nFP6sM52nJ4Hlm8jsDnhVYpqIITZUAhckQ==
+mongoose@^8.19.2:
+  version "8.19.4"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.19.4.tgz#cc7bca2380c78c9d8b1c912ff7a9430135fa9036"
+  integrity sha512-yiY/Wv6FUYDQ4kBN1RQHiYuayQS4k+yzytj4nctMmQiBIXLfJqvw6fRgmvw1rIOmShp7iAbpNt7s2s6TyVOSyA==
   dependencies:
     bson "^6.10.4"
     kareem "2.6.3"
